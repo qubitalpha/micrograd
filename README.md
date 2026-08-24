@@ -21,6 +21,8 @@ Character-level language modeling from bigram statistics to PyTorch neural netwo
 * **[makemore-1.ipynb](./makemore/makemore-1.ipynb)**: Bigram counting intro and character transition pairs.
 * **[makemore-2.ipynb](./makemore/makemore-2.ipynb)**: PyTorch tensor matrix representation, sampling, and negative log-likelihood (NLL).
 * **[makemore-3.ipynb](./makemore/makemore-3.ipynb)**: Broadcasting semantics, loss calculation, and bigram neural network optimization via PyTorch autograd.
+* **[makemore-4.ipynb](./makemore/makemore-4.ipynb)**: Neural network formulation, one-hot encoding, Softmax, and loss minimization.
+* **[makemore-5.ipynb](./makemore/makemore-5.ipynb)**: Complete training loop and sampling names from the trained neural network.
 
 ---
 

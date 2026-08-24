@@ -28,6 +28,14 @@ You can follow along with the notebooks in this exact chronological order:
    * **Topics:** Tensor broadcasting semantics, probability smoothing, calculating cross-entropy loss, and transitioning to a single-layer neural network using one-hot encoded character inputs and PyTorch autograd.
    * **Key Takeaway:** Seeing how a neural network optimized via gradient descent reproduces identical probability estimates to direct count normalization.
 
+4. **[makemore-4.ipynb](./makemore-4.ipynb)**
+   * **Topics:** Formulation of character-level bigram language modeling as a neural network. One-hot encoding inputs, weight parameters, logits, Softmax function, loss function evaluation, and gradient-based updates.
+   * **Key Takeaway:** Understanding how logits and Softmax convert linear outputs into a valid probability distribution optimized via loss minimization.
+
+5. **[makemore-5.ipynb](./makemore-5.ipynb)**
+   * **Topics:** Complete neural network training loop, optimization pass, and sampling/inferencing new names from the trained bigram neural network.
+   * **Key Takeaway:** End-to-end training and character sampling using a neural network formulation of the bigram model.
+
 ---
 
 ## 🛠️ Environment Setup & Dependencies
