@@ -24,6 +24,11 @@ Character-level language modeling from bigram statistics to PyTorch neural netwo
 * **[makemore-4.ipynb](./makemore/makemore-4.ipynb)**: Neural network formulation, one-hot encoding, Softmax, and loss minimization.
 * **[makemore-5.ipynb](./makemore/makemore-5.ipynb)**: Complete training loop and sampling names from the trained neural network.
 
+### 3. 🤖 [Building GPT from Scratch](./gpt/README.md)
+Building a generative pre-trained transformer (GPT) language model from scratch in PyTorch, covering self-attention, multi-head attention, residual connections, and transformer blocks.
+
+* **[gpt-dev1.ipynb](./gpt/gpt-dev1.ipynb)**: Complete step-by-step walkthrough from bigram baseline to character-level transformer trained on Tiny Shakespeare.
+
 ---
 
 ## 🛠️ Quick Start
