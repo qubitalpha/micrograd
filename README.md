@@ -25,9 +25,24 @@ Character-level language modeling from bigram statistics to PyTorch neural netwo
 * **[makemore-5.ipynb](./makemore/makemore-5.ipynb)**: Complete training loop and sampling names from the trained neural network.
 
 ### 3. 🤖 [Building GPT from Scratch](./gpt/README.md)
-Building a generative pre-trained transformer (GPT) language model from scratch in PyTorch, covering self-attention, multi-head attention, residual connections, and transformer blocks.
+Generative Pre-trained Transformer (GPT) language model from scratch in PyTorch—covering bigram baselines, scaled dot-product attention, multi-head attention, feed-forward layers, residual pathways, and layer normalization.
 
-* **[gpt-dev1.ipynb](./gpt/gpt-dev1.ipynb)**: Complete step-by-step walkthrough from bigram baseline to character-level transformer trained on Tiny Shakespeare.
+* **[gpt-dev1.ipynb](./gpt/gpt-dev1.ipynb)**: Data loading, character-level tokenization, train/val split, batch & block size context.
+* **[gpt-dev2.0.ipynb](./gpt/gpt-dev2.0.ipynb)**: Baseline bigram neural network architecture (`nn.Embedding` lookup table).
+* **[gpt-dev2.1.ipynb](./gpt/gpt-dev2.1.ipynb)**: Adding cross-entropy loss function to the bigram language model.
+* **[gpt-dev2.12.ipynb](./gpt/gpt-dev2.12.ipynb)**: Reshaping tensor dimensions for `F.cross_entropy` and initial loss baseline analysis.
+* **[gpt-dev2.13.ipynb](./gpt/gpt-dev2.13.ipynb)**: Autoregressive sampling and generating from the untrained model.
+* **[gpt-dev2.14.ipynb](./gpt/gpt-dev2.14.ipynb)**: Training loop optimization with AdamW and sampling from trained bigram.
+* **[gpt-dev2.15.ipynb](./gpt/gpt-dev2.15.ipynb)**: Consolidated standalone baseline script (`bigram.py`).
+* **[gpt-dev3.0.ipynb](./gpt/gpt-dev3.0.ipynb)**: Mathematical trick in self-attention (causal averaging with `tril` and matrix multiplication).
+* **[gpt-dev3.1.ipynb](./gpt/gpt-dev3.1.ipynb)**: Positional embeddings ($x = \text{tok\_emb} + \text{pos\_emb}$) for sequence order.
+* **[gpt-dev3.2 Attention and self-attention.ipynb](./gpt/gpt-dev3.2%20Attention%20and%20self-attention.ipynb)**: Queries, Keys, Values, causal masking, and scaled dot-product attention head.
+* **[gpt-dev3.3 self-attention for a spin.ipynb](./gpt/gpt-dev3.3%20self-attention%20for%20a%20spin.ipynb)**: Integrating the single attention head into the model.
+* **[gpt-dev4 multi-head attention.ipynb](./gpt/gpt-dev4%20multi-head%20attention.ipynb)**: Multi-head attention running multiple heads in parallel.
+* **[gpt-dev5 feed forward.ipynb](./gpt/gpt-dev5%20feed%20forward.ipynb)**: Position-wise feed-forward networks (per-token MLP computation).
+* **[gpt-dev6 implementing blocks.ipynb](./gpt/gpt-dev6%20implementing%20blocks.ipynb)**: Transformer blocks stacking attention and feed-forward.
+* **[gpt-dev7 residual pathways.ipynb](./gpt/gpt-dev7%20residual%20pathways.ipynb)**: Residual connections (skip connections) around sub-layers.
+* **[gpt-dev8 Layer Norm.ipynb](./gpt/gpt-dev8%20Layer%20Norm.ipynb)**: Pre-layer normalization (`nn.LayerNorm`) and final scaling.
 
 ---
 
