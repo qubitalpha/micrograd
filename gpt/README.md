@@ -9,6 +9,7 @@ This directory contains learning notes, code implementations, and Jupyter notebo
 * **Video Lecture:** [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY&list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&index=7)
 * **Official Google Colab:** [Google Colab Notebook (by Andrej Karpathy)](https://colab.research.google.com/drive/1JMLa53HDuA-i7ZBmqV7ZnA3c_fvtXnx-)
 * **Companion Repository:** [karpathy/ng-video-lecture](https://github.com/karpathy/ng-video-lecture)
+* **Full Flushed-Out Code (`gpt.py`):** [karpathy/ng-video-lecture/gpt.py](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py)
 * **Foundational Paper:** [Attention Is All You Need (Vaswani et al., 2017)](https://arxiv.org/abs/1706.03762)
 
 ---
@@ -135,6 +136,9 @@ This directory contains learning notes, code implementations, and Jupyter notebo
 
 * **[`andrej_gpt_colab.ipynb`](./andrej_gpt_colab.ipynb)**: Full, exact local copy of Andrej Karpathy's completed reference notebook from the video description (all 39 cells, outputs, and mathematical diagrams).
 * **[`input.txt`](./input.txt)**: Tiny Shakespeare dataset (~1.1MB text) used as the training corpus.
+* **[`gpt.py` (Full Flushed-Out Code)](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py)**: Andrej Karpathy's completed, production-style script for the scaled Transformer.
+  > [!IMPORTANT]
+  > **Hardware Constraint**: This full script (`n_layer = 6`, `n_head = 6`, `n_embd = 384`, `block_size = 256`) cannot be practically trained on a MacBook CPU/MPS without prohibitive training times. It requires a dedicated GPU (e.g. Google Colab T4/A100), or a deeper architectural breakdown to scale down the layers, heads, and embedding dimensions for local experimentation.
 
 ---
 

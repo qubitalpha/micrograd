@@ -43,6 +43,7 @@ Generative Pre-trained Transformer (GPT) language model from scratch in PyTorchâ
 * **[gpt-dev6 implementing blocks.ipynb](./gpt/gpt-dev6%20implementing%20blocks.ipynb)**: Transformer blocks stacking attention and feed-forward.
 * **[gpt-dev7 residual pathways.ipynb](./gpt/gpt-dev7%20residual%20pathways.ipynb)**: Residual connections (skip connections) around sub-layers.
 * **[gpt-dev8 Layer Norm.ipynb](./gpt/gpt-dev8%20Layer%20Norm.ipynb)**: Pre-layer normalization (`nn.LayerNorm`) and final scaling.
+* **[gpt.py (Andrej's Full Reference Script)](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py)**: Full flushed-out Transformer implementation. *(Note: This configuration cannot practically run on a MacBookâ€”it requires a GPU, or a deeper understanding to break down and scale down the layers, heads, and embedding dimensions).*
 
 ---
 
