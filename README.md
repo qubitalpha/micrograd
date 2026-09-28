@@ -45,6 +45,10 @@ Generative Pre-trained Transformer (GPT) language model from scratch in PyTorch�
 * **[gpt-dev8 Layer Norm.ipynb](./gpt/gpt-dev8%20Layer%20Norm.ipynb)**: Pre-layer normalization (`nn.LayerNorm`) and final scaling.
 * **[gpt.py (Andrej's Full Reference Script)](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py)**: Full flushed-out Transformer implementation. *(Note: This configuration cannot practically run on a MacBook—it requires a GPU, or a deeper understanding to break down and scale down the layers, heads, and embedding dimensions).*
 
+
+![image.png](attachment:cf502009-fc08-4b69-a509-3f1fc2fdb7b3.png)
+
+
 ---
 
 ## 🛠️ Quick Start
