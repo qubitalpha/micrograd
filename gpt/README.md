@@ -134,6 +134,7 @@ This directory contains learning notes, code implementations, and Jupyter notebo
 
 ### Reference Artifacts
 
+* **[`braindump.md`](./braindump.md)**: Personal intuitions, mental models, and Q&A covering prefill vs. decode, KV caching, vLLM paging, and Query/Key/Value dynamics.
 * **[`andrej_gpt_colab.ipynb`](./andrej_gpt_colab.ipynb)**: Full, exact local copy of Andrej Karpathy's completed reference notebook from the video description (all 39 cells, outputs, and mathematical diagrams).
 * **[`input.txt`](./input.txt)**: Tiny Shakespeare dataset (~1.1MB text) used as the training corpus.
 * **[`gpt.py` (Full Flushed-Out Code)](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py)**: Andrej Karpathy's completed, production-style script for the scaled Transformer.
